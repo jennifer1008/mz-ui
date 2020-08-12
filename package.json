@@ -1,7 +1,7 @@
 {
-  "name": "mz-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mz-ui-vue",
+  "version": "0.1.9",
+  "main": "components/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,6 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "html2canvas": "^1.0.0-rc.4",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "scss-loader": "0.0.1",
+    "vconsole": "^3.3.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,11 +37,8 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "rules": {
+      "no-debugger": 0
+    }
+  }
 }

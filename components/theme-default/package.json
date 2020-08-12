@@ -1,0 +1,24 @@
+{
+  "name": "mz-ui-theme-default",
+  "version": "1.0.0",
+  "description": "mz-ui component default theme.",
+  "main": "lib/index.css",
+  "scripts": {
+    "dev": "gulp build && gulp watch",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "mz-ui",
+    "theme"
+  ],
+  "author": "jenniferFeng",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-cssmin": "^0.1.7",
+    "gulp-postcss": "^6.1.1",
+    "postcss-salad": "^1.0.5"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

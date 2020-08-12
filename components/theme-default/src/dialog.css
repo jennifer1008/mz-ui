@@ -1,0 +1,73 @@
+@import "./common/var.css";
+@b mz{
+    @e dialog{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: RGBA(51, 51, 51, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;  
+        @m content{
+            width: 100%;
+            padding: 20px;
+            background-color: var(--color-white);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            margin: 0 15px;
+        }
+        @m closeWrap{
+            width: 100%;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        @m title {
+            background: none;
+            color: var(--color-primary);
+            text-align: center;
+            font-size: 16px;
+        }
+        @m close {
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: var(--color-primary);
+        }
+        @m btnBox{
+            width: 100%;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            font-size: 18px;
+            color: white;
+            margin-top: 26px;
+            display: flex;
+        }
+        @m button{
+            display: block;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            color: var(--color-white);
+            text-decoration: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            position: relative;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50px;
+        }
+        @m defaultBtn {
+            background: var(--color-extra-light-silver);
+            margin-right: 15px;
+        }
+        @m confirmBtn {
+            background: var(--color-primary);
+        }
+    }
+}
